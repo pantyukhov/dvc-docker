@@ -13,5 +13,5 @@ RUN wget https://github.com/libgit2/libgit2/archive/refs/tags/v1.5.0.tar.gz -O l
 
 
 RUN pip install pygit2
-RUN pip install dvc[awc] awscli
+RUN pip install dvc[s3] awscli
 
